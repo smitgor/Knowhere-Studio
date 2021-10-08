@@ -1,26 +1,26 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-size:medium;
-    
+    font-size:large;
 }
 body{
     background-color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
 }
-/*nav{
+.navbar{
     top: 0;
-    position: fixed;
+    position: sticky;
     z-index: 100;
     width: 100%;
     background-color: white;
-}*/
+}
 
-.navbar1{
+.navbar{
     padding: 10px 20px;
-    border-bottom: solid;
-    border-bottom-color: black;
     background-color: white;
     border-collapse:collapse;
+    border-width: 2px;
 }
 
 .nav-right-side{
@@ -50,44 +50,77 @@ a.GetStarted-btn{
     border-radius: 3px;
 }
 /*////*/
+
+
 .mainPage-upperBox{
     background-image: url("./hero-bg-57850c713b3b6d5f92c9c24f393695ed.svg");
     background-repeat: no-repeat, repeat;
     background-position: right;
     background-color: white;
     width: 99%;
-    height: 600px;
-    position: relative; 
-    border-right:solid;
-    border-bottom: solid;
+    height: 500px;
+    position:relative; 
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
     z-index:3;
 }
 .mainPage-middleBox{
     background-color:aqua; 
-    width: 98%;
-    height: 600px;
-    position: relative;
+    width: 99%;
+    height: 500px;
+    position:relative; 
     border-style: solid;
-    top:-594px; 
-    left:20px; 
+    border-width: 2px;
+    border-radius: 5px;
+    top:-494px; 
+    left:8px; 
     z-index:2;
 }
 .mainPage-lowerBox{
-    background-color:chartreuse; 
-    width: 98%;
-    height: 600px;
+    background-color:chartreuse;
+    width: 99%;
+    height: 500px;
     position:relative; 
     border-style: solid;
-    top:-1188px; 
-    left:40px; 
+    border-width: 2px;
+    border-radius: 5px;
+    top:-988px; 
+    left:16px; 
     z-index:1;
 }
 
 .mainHeading{
     padding:70px 60px;
-    width: 70%;
-    border-style: solid;
 }
 .mainHeading h1{
     font-size:80px;
+    font-weight: bold;
+    width:80%;
+    padding: 10px;
+}
+
+.mainHeading h2{
+    font-size:30px;
+    font-weight:normal;
+    width:50%;
+    padding: 10px;
+}
+
+.mainPage-btn button{
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.btn-whyForem{
+    
+}
+
+.Second-part{
+    top:-950px;
+    position:relative; 
+    border-style: solid;
 }
