@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size:medium;
+    
+}
+body{
+    background-color:white;
+}
+/*nav{
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+}*/
+
+.navbar1{
+    padding: 10px 20px;
+    border-bottom: solid;
+    border-bottom-color: black;
+    background-color: white;
+    border-collapse:collapse;
+}
+
+.nav-right-side{
+    display: inline;
+    align-items: center;
+    float: right;
+    margin: 10px 10px;
+    padding: 15px 15px;
+    max-height: 100%;
+    margin-right: 25px;
+}
+.nav-right-side a{
+    padding: 10px;
+}
+
+nav a img{
+    max-height: 70px;
+}
+
+.nav-right-side a{
+    color: black;
+}
+
+a.GetStarted-btn{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+/*////*/
+.mainPage-upperBox{
+    background-image: url("./hero-bg-57850c713b3b6d5f92c9c24f393695ed.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: right;
+    background-color: white;
+    width: 99%;
+    height: 600px;
+    position: relative; 
+    border-right:solid;
+    border-bottom: solid;
+    z-index:3;
+}
+.mainPage-middleBox{
+    background-color:aqua; 
+    width: 98%;
+    height: 600px;
+    position: relative;
+    border-style: solid;
+    top:-594px; 
+    left:20px; 
+    z-index:2;
+}
+.mainPage-lowerBox{
+    background-color:chartreuse; 
+    width: 98%;
+    height: 600px;
+    position:relative; 
+    border-style: solid;
+    top:-1188px; 
+    left:40px; 
+    z-index:1;
+}
+
+.mainHeading{
+    padding:70px 60px;
+    width: 70%;
+    border-style: solid;
+}
+.mainHeading h1{
+    font-size:80px;
+}
