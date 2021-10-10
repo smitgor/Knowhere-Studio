@@ -21,6 +21,7 @@ body{
     background-color: white;
     border-collapse:collapse;
     border-width: 2px;
+    z-index: 10000;
 }
 
 .nav-right-side{
@@ -48,47 +49,61 @@ a.GetStarted-btn{
     background-color: black;
     color: white;
     border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hover-btn:hover{
+    background-color:rgb(240, 240, 23);
+    color: black;
 }
 /*////*/
-
+.homePage{
+    position: relative;
+}
 
 .mainPage-upperBox{
-    background-image: url("./hero-bg-57850c713b3b6d5f92c9c24f393695ed.svg");
+    background-image: url("../assets/hero-bg-57850c713b3b6d5f92c9c24f393695ed.svg");
     background-repeat: no-repeat, repeat;
     background-position: right;
     background-color: white;
     width: 99%;
     height: 500px;
-    position:relative; 
+    position:absolute; 
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
+    display: flex;
     z-index:3;
 }
+
+
 .mainPage-middleBox{
     background-color:aqua; 
     width: 99%;
     height: 500px;
-    position:relative; 
+    position:absolute; 
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    top:-494px; 
+    top:8px; 
     left:8px; 
+    display: flex;
     z-index:2;
 }
 .mainPage-lowerBox{
     background-color:chartreuse;
     width: 99%;
     height: 500px;
-    position:relative; 
+    position:absolute; 
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    top:-988px; 
+    top:16px; 
     left:16px; 
     z-index:1;
+    display: flex;
 }
+
 
 .mainHeading{
     padding:70px 60px;
@@ -113,14 +128,68 @@ a.GetStarted-btn{
     margin-left: 10px;
     border-radius: 3px;
     font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .btn-whyForem{
-    
+    color: white;
+    background-color: black;
 }
 
-.Second-part{
-    top:-950px;
-    position:relative; 
-    border-style: solid;
+.Second-part{ 
+    
+    text-align: center;
+    padding: 235px 0px;
+    background-color:white;
+}
+
+.Second-part p{
+    font-weight: bold;
+    color: white;
+    font-size:80px;
+    width: 80%;
+    padding-top: 30px;
+    transition:0.3s;
+    
+}
+/*
+.Second-part:before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left:0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(180deg,rgb(46, 71, 71),#fff);
+    z-index: 1000;
+}
+*/
+
+.moto{
+    text-align: center;
+    padding: 250px 0px 260px;
+    background-color:rgb(46, 71, 71);
+    background-image: linear-gradient(rgb(46, 71, 71) 80%, white);
+}
+.moto p{
+    font-weight: bold;
+    color: white;
+    font-size:80px;
+    width: 80%;
+    padding-top: 30px;   
+}
+
+.twoCols-part{
+    display: flex;
+}
+
+.col1, .col2{
+    width: 50%;
+}
+
+.col1{
+    
+}
+.col2{
+    
 }
